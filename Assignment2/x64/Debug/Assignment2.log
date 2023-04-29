@@ -1,0 +1,13 @@
+﻿  main.cpp
+C:\Users\HP\source\repos\Assignment2\Assignment2\restaurant.h(398,1): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\HP\source\repos\Assignment2\Assignment2\restaurant.h(435,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\HP\source\repos\Assignment2\Assignment2\restaurant.h(483,42): warning C4099: 'MinHeapNode': type name first seen using 'class' now seen using 'struct'
+C:\Users\HP\source\repos\Assignment2\Assignment2\restaurant.h(458): message : see declaration of 'MinHeapNode'
+C:\Users\HP\source\repos\Assignment2\Assignment2\restaurant.h(520,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\HP\source\repos\Assignment2\Assignment2\restaurant.h(550,38): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\HP\source\repos\Assignment2\Assignment2\restaurant.h(735,38): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\HP\source\repos\Assignment2\Assignment2\restaurant.h(751,31): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\HP\source\repos\Assignment2\Assignment2\restaurant.h(770,31): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\HP\source\repos\Assignment2\Assignment2\restaurant.h(430): warning C4715: 'MinHeap::update_style2': not all control paths return a value
+C:\Users\HP\source\repos\Assignment2\Assignment2\restaurant.h(412): warning C4715: 'MinHeap::remove': not all control paths return a value
+  Assignment2.vcxproj -> C:\Users\HP\source\repos\Assignment2\x64\Debug\Assignment2.exe

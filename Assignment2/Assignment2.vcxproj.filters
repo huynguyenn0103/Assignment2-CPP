@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="restaurant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input19.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input20.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input21.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input22.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input23.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input10.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input11.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input12.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input13.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input100.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input95.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input96.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input97.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input98.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input99.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input9.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input80.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input81.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input82.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input83.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input84.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input85.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input86.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input87.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input88.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input89.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input90.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input91.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input92.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input93.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input94.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input7.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input8.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input68.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input69.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input70.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input71.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input72.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input73.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input74.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input75.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input76.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input77.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input78.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input79.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input6.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input59.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input60.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input61.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input62.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input63.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input64.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input65.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input66.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input67.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input5.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input50.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input51.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input52.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input53.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input54.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input55.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input56.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input57.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input58.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input41.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input42.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input43.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input44.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input45.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input46.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input47.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input48.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input49.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input4.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input32.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input33.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input34.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input35.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input36.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input37.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input38.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input39.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input40.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input3.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input24.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input25.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input26.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input27.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input28.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input29.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input30.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input31.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input14.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input15.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input16.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input17.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (1)\DSATestcase_Assignment2-main\input\input18.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
