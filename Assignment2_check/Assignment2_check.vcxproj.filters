@@ -1,0 +1,932 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="restaurant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\Assignment2\Assignment2\input98.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input99.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input100.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input3.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input4.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input5.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input6.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input7.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input8.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input9.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input10.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input11.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input12.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input13.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input14.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input15.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input16.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input17.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input18.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input19.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input20.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input21.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input22.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input23.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input24.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input25.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input26.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input27.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input28.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input29.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input30.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input31.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input32.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input33.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input34.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input35.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input36.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input37.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input38.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input39.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input40.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input41.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input42.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input43.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input44.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input45.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input46.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input47.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input48.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input49.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input50.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input51.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input52.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input53.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input54.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input55.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input56.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input57.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input58.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input59.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input60.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input61.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input62.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input63.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input64.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input65.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input66.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input67.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input68.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input69.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input70.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input71.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input72.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input73.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input74.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input75.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input76.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input77.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input78.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input79.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input80.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input81.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input82.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input83.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input84.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input85.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input86.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input87.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input88.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input89.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input90.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input91.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input92.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input93.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input94.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input95.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input96.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\Assignment2\Assignment2\input97.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got100.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got3.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got4.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got5.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got6.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got7.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got8.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got9.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got10.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got11.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got12.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got13.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got14.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got15.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got16.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got17.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got18.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got19.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got20.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got21.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got22.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got23.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got24.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got25.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got26.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got27.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got28.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got29.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got30.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got31.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got32.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got33.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got34.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got35.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got36.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got37.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got38.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got39.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got40.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got41.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got42.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got43.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got44.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got45.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got46.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got47.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got48.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got49.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got50.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got51.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got52.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got53.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got54.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got55.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got56.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got57.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got58.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got59.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got60.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got61.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got62.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got63.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got64.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got65.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got66.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got67.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got68.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got69.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got70.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got71.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got72.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got73.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got74.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got75.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got76.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got77.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got78.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got79.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got80.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got81.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got82.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got83.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got84.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got85.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got86.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got87.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got88.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got89.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got90.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got91.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got92.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got93.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got94.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got95.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got96.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got97.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got98.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="got99.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected98.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected99.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected100.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected80.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected81.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected82.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected83.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected84.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected85.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected86.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected87.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected88.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected89.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected90.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected91.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected92.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected93.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected94.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected64.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected65.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected66.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected67.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected68.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected69.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected70.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected71.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected72.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected73.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected74.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected75.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected76.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected77.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected78.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected79.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected49.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected50.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected51.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected52.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected53.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected54.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected55.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected56.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected57.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected58.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected59.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected60.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected61.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected62.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected63.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected35.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected36.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected37.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected38.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected39.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected40.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected41.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected42.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected43.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected44.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected45.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected46.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected47.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected48.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected20.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected21.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected22.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected23.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected24.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected25.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected26.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected27.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected28.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected29.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected30.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected31.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected32.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected33.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected34.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected3.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected4.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected5.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected6.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected7.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected8.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected9.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected10.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected11.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected12.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected13.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected14.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected15.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected16.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected17.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected18.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected19.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected95.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected96.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected97.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

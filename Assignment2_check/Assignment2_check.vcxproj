@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{ca6e6601-3df1-488d-aed7-2852bc41c834}</ProjectGuid>
+    <RootNamespace>Assignment2check</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="restaurant.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\Downloads\Expected2\expected1.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected10.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected100.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected11.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected12.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected13.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected14.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected15.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected16.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected17.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected18.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected19.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected2.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected20.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected21.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected22.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected23.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected24.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected25.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected26.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected27.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected28.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected29.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected3.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected30.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected31.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected32.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected33.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected34.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected35.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected36.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected37.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected38.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected39.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected4.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected40.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected41.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected42.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected43.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected44.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected45.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected46.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected47.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected48.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected49.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected5.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected50.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected51.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected52.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected53.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected54.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected55.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected56.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected57.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected58.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected59.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected6.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected60.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected61.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected62.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected63.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected64.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected65.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected66.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected67.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected68.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected69.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected7.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected70.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected71.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected72.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected73.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected74.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected75.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected76.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected77.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected78.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected79.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected8.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected80.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected81.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected82.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected83.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected84.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected85.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected86.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected87.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected88.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected89.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected9.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected90.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected91.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected92.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected93.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected94.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected95.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected96.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected97.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected98.txt" />
+    <Text Include="..\..\..\..\Downloads\Expected2\expected99.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input1.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input10.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input100.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input11.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input12.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input13.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input14.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input15.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input16.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input17.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input18.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input19.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input2.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input20.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input21.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input22.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input23.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input24.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input25.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input26.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input27.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input28.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input29.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input3.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input30.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input31.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input32.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input33.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input34.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input35.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input36.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input37.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input38.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input39.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input4.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input40.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input41.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input42.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input43.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input44.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input45.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input46.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input47.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input48.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input49.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input5.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input50.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input51.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input52.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input53.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input54.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input55.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input56.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input57.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input58.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input59.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input6.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input60.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input61.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input62.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input63.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input64.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input65.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input66.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input67.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input68.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input69.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input7.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input70.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input71.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input72.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input73.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input74.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input75.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input76.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input77.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input78.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input79.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input8.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input80.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input81.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input82.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input83.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input84.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input85.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input86.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input87.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input88.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input89.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input9.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input90.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input91.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input92.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input93.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input94.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input95.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input96.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input97.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input98.txt" />
+    <Text Include="..\..\Assignment2\Assignment2\input99.txt" />
+    <Text Include="got1.txt" />
+    <Text Include="got10.txt" />
+    <Text Include="got100.txt" />
+    <Text Include="got11.txt" />
+    <Text Include="got12.txt" />
+    <Text Include="got13.txt" />
+    <Text Include="got14.txt" />
+    <Text Include="got15.txt" />
+    <Text Include="got16.txt" />
+    <Text Include="got17.txt" />
+    <Text Include="got18.txt" />
+    <Text Include="got19.txt" />
+    <Text Include="got2.txt" />
+    <Text Include="got20.txt" />
+    <Text Include="got21.txt" />
+    <Text Include="got22.txt" />
+    <Text Include="got23.txt" />
+    <Text Include="got24.txt" />
+    <Text Include="got25.txt" />
+    <Text Include="got26.txt" />
+    <Text Include="got27.txt" />
+    <Text Include="got28.txt" />
+    <Text Include="got29.txt" />
+    <Text Include="got3.txt" />
+    <Text Include="got30.txt" />
+    <Text Include="got31.txt" />
+    <Text Include="got32.txt" />
+    <Text Include="got33.txt" />
+    <Text Include="got34.txt" />
+    <Text Include="got35.txt" />
+    <Text Include="got36.txt" />
+    <Text Include="got37.txt" />
+    <Text Include="got38.txt" />
+    <Text Include="got39.txt" />
+    <Text Include="got4.txt" />
+    <Text Include="got40.txt" />
+    <Text Include="got41.txt" />
+    <Text Include="got42.txt" />
+    <Text Include="got43.txt" />
+    <Text Include="got44.txt" />
+    <Text Include="got45.txt" />
+    <Text Include="got46.txt" />
+    <Text Include="got47.txt" />
+    <Text Include="got48.txt" />
+    <Text Include="got49.txt" />
+    <Text Include="got5.txt" />
+    <Text Include="got50.txt" />
+    <Text Include="got51.txt" />
+    <Text Include="got52.txt" />
+    <Text Include="got53.txt" />
+    <Text Include="got54.txt" />
+    <Text Include="got55.txt" />
+    <Text Include="got56.txt" />
+    <Text Include="got57.txt" />
+    <Text Include="got58.txt" />
+    <Text Include="got59.txt" />
+    <Text Include="got6.txt" />
+    <Text Include="got60.txt" />
+    <Text Include="got61.txt" />
+    <Text Include="got62.txt" />
+    <Text Include="got63.txt" />
+    <Text Include="got64.txt" />
+    <Text Include="got65.txt" />
+    <Text Include="got66.txt" />
+    <Text Include="got67.txt" />
+    <Text Include="got68.txt" />
+    <Text Include="got69.txt" />
+    <Text Include="got7.txt" />
+    <Text Include="got70.txt" />
+    <Text Include="got71.txt" />
+    <Text Include="got72.txt" />
+    <Text Include="got73.txt" />
+    <Text Include="got74.txt" />
+    <Text Include="got75.txt" />
+    <Text Include="got76.txt" />
+    <Text Include="got77.txt" />
+    <Text Include="got78.txt" />
+    <Text Include="got79.txt" />
+    <Text Include="got8.txt" />
+    <Text Include="got80.txt" />
+    <Text Include="got81.txt" />
+    <Text Include="got82.txt" />
+    <Text Include="got83.txt" />
+    <Text Include="got84.txt" />
+    <Text Include="got85.txt" />
+    <Text Include="got86.txt" />
+    <Text Include="got87.txt" />
+    <Text Include="got88.txt" />
+    <Text Include="got89.txt" />
+    <Text Include="got9.txt" />
+    <Text Include="got90.txt" />
+    <Text Include="got91.txt" />
+    <Text Include="got92.txt" />
+    <Text Include="got93.txt" />
+    <Text Include="got94.txt" />
+    <Text Include="got95.txt" />
+    <Text Include="got96.txt" />
+    <Text Include="got97.txt" />
+    <Text Include="got98.txt" />
+    <Text Include="got99.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
