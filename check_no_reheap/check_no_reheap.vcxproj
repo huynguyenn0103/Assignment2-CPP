@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{76ab5416-4750-4c13-b3ac-af4622763f28}</ProjectGuid>
+    <RootNamespace>checknoreheap</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="restaurant.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input1.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input10.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input100.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input11.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input12.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input13.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input14.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input15.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input16.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input17.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input18.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input19.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input2.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input20.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input21.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input22.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input23.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input24.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input25.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input26.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input27.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input28.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input29.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input3.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input30.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input31.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input32.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input33.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input34.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input35.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input36.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input37.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input38.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input39.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input4.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input40.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input41.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input42.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input43.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input44.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input45.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input46.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input47.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input48.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input49.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input5.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input50.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input51.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input52.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input53.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input54.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input55.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input56.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input57.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input58.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input59.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input6.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input60.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input61.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input62.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input63.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input64.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input65.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input66.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input67.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input68.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input69.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input7.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input70.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input71.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input72.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input73.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input74.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input75.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input76.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input77.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input78.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input79.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input8.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input80.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input81.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input82.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input83.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input84.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input85.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input86.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input87.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input88.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input89.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input9.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input90.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input91.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input92.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input93.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input94.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input95.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input96.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input97.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input98.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (2)\DSATestcase_Assignment2-main\input\input99.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected1.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected10.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected100.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected11.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected12.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected13.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected14.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected15.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected16.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected17.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected18.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected19.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected2.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected20.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected21.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected22.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected23.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected24.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected25.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected26.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected27.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected28.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected29.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected3.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected30.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected31.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected32.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected33.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected34.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected35.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected36.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected37.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected38.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected39.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected4.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected40.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected41.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected42.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected43.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected44.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected45.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected46.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected47.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected48.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected49.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected5.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected50.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected51.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected52.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected53.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected54.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected55.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected56.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected57.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected58.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected59.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected6.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected60.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected61.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected62.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected63.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected64.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected65.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected66.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected67.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected68.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected69.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected7.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected70.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected71.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected72.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected73.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected74.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected75.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected76.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected77.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected78.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected79.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected8.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected80.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected81.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected82.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected83.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected84.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected85.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected86.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected87.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected88.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected89.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected9.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected90.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected91.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected92.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected93.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected94.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected95.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected96.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected97.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected98.txt" />
+    <Text Include="..\..\..\..\Downloads\DSATestcase_Assignment2-main (4)\DSATestcase_Assignment2-main\output\expected99.txt" />
+    <Text Include="got1.txt" />
+    <Text Include="got10.txt" />
+    <Text Include="got100.txt" />
+    <Text Include="got11.txt" />
+    <Text Include="got12.txt" />
+    <Text Include="got13.txt" />
+    <Text Include="got14.txt" />
+    <Text Include="got15.txt" />
+    <Text Include="got16.txt" />
+    <Text Include="got17.txt" />
+    <Text Include="got18.txt" />
+    <Text Include="got19.txt" />
+    <Text Include="got2.txt" />
+    <Text Include="got20.txt" />
+    <Text Include="got21.txt" />
+    <Text Include="got22.txt" />
+    <Text Include="got23.txt" />
+    <Text Include="got24.txt" />
+    <Text Include="got25.txt" />
+    <Text Include="got26.txt" />
+    <Text Include="got27.txt" />
+    <Text Include="got28.txt" />
+    <Text Include="got29.txt" />
+    <Text Include="got3.txt" />
+    <Text Include="got30.txt" />
+    <Text Include="got31.txt" />
+    <Text Include="got32.txt" />
+    <Text Include="got33.txt" />
+    <Text Include="got34.txt" />
+    <Text Include="got35.txt" />
+    <Text Include="got36.txt" />
+    <Text Include="got37.txt" />
+    <Text Include="got38.txt" />
+    <Text Include="got39.txt" />
+    <Text Include="got4.txt" />
+    <Text Include="got40.txt" />
+    <Text Include="got41.txt" />
+    <Text Include="got42.txt" />
+    <Text Include="got43.txt" />
+    <Text Include="got44.txt" />
+    <Text Include="got45.txt" />
+    <Text Include="got46.txt" />
+    <Text Include="got47.txt" />
+    <Text Include="got48.txt" />
+    <Text Include="got49.txt" />
+    <Text Include="got5.txt" />
+    <Text Include="got50.txt" />
+    <Text Include="got51.txt" />
+    <Text Include="got52.txt" />
+    <Text Include="got53.txt" />
+    <Text Include="got54.txt" />
+    <Text Include="got55.txt" />
+    <Text Include="got56.txt" />
+    <Text Include="got57.txt" />
+    <Text Include="got58.txt" />
+    <Text Include="got59.txt" />
+    <Text Include="got6.txt" />
+    <Text Include="got60.txt" />
+    <Text Include="got61.txt" />
+    <Text Include="got62.txt" />
+    <Text Include="got63.txt" />
+    <Text Include="got64.txt" />
+    <Text Include="got65.txt" />
+    <Text Include="got66.txt" />
+    <Text Include="got67.txt" />
+    <Text Include="got68.txt" />
+    <Text Include="got69.txt" />
+    <Text Include="got7.txt" />
+    <Text Include="got70.txt" />
+    <Text Include="got71.txt" />
+    <Text Include="got72.txt" />
+    <Text Include="got73.txt" />
+    <Text Include="got74.txt" />
+    <Text Include="got75.txt" />
+    <Text Include="got76.txt" />
+    <Text Include="got77.txt" />
+    <Text Include="got78.txt" />
+    <Text Include="got79.txt" />
+    <Text Include="got8.txt" />
+    <Text Include="got80.txt" />
+    <Text Include="got81.txt" />
+    <Text Include="got82.txt" />
+    <Text Include="got83.txt" />
+    <Text Include="got84.txt" />
+    <Text Include="got85.txt" />
+    <Text Include="got86.txt" />
+    <Text Include="got87.txt" />
+    <Text Include="got88.txt" />
+    <Text Include="got89.txt" />
+    <Text Include="got9.txt" />
+    <Text Include="got90.txt" />
+    <Text Include="got91.txt" />
+    <Text Include="got92.txt" />
+    <Text Include="got93.txt" />
+    <Text Include="got94.txt" />
+    <Text Include="got95.txt" />
+    <Text Include="got96.txt" />
+    <Text Include="got97.txt" />
+    <Text Include="got98.txt" />
+    <Text Include="got99.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
