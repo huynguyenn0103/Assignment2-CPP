@@ -819,6 +819,14 @@ bool verifyNumber(string requirement) {
 	}
 	return true;
 }
+bool verifyAlphabet(string requirement) {
+	for (unsigned int i = 0; i < requirement.size(); i++) {
+		if (!((requirement[i] >= 'a' && requirement[i] <= 'z') || (requirement[i] >= 'A' && requirement[i] <= 'Z'))) {
+			return false;
+		}
+	}
+	return true;
+}
 void simulate(string filename){
 	string requirement = "";
 	ifstream fileReader(filename);
@@ -833,6 +841,7 @@ void simulate(string filename){
 			string result = requirement.substr(4);
 			if (task.compare("REG") == 0) {
 				bool isSuccess = verifyblank(result);
+				if (isSuccess) isSuccess = verifyAlphabet(result);
 				if (!isSuccess) continue;
 				else {
 					if (isExistedCustomer(result)) {// Order mon
